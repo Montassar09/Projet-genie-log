@@ -50,26 +50,51 @@ header {
     text-decoration: underline;
       
     }
-    h2{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: rgb(255, 255, 255);
-        font-size: 50px;
-        font-weight: bold;
-        font-family: georgia,sans-serif ;
-          letter-spacing: 2px;
-        word-spacing: 1px;
-      }
-      h3{
-        position: absolute;
-        top: 48%;
-        left: 36%;
-        transform: translate(-50%, -50%);
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-weight: bold;
-          letter-spacing: 2px;
-        word-spacing: 1px;
-      }
+    h1{
+      position: absolute;
+      top: 15%;
+      left: 30%;
+      font-size: 50px;
+      font-family: georgia,sans-serif ;
+      letter-spacing: 2px;
+      word-spacing: 1px;
+    }
+  section{
+    color: rgb(75, 2, 88);
+  }
+  .card {
+    width: 45%;
+    background-color: #222;
+    color: white;
+    padding: 7%;
+    margin: 12% auto;  /* Centers the card */
+    margin-right: 52%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#car {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 45%;
+  background-color: #222;
+  color: white;
+  padding: 7%;
+  margin: 12% auto;  /* Centers the card */
+  margin-right: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#cards {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  width: 70%;
+  background-color: #222;
+  color: white;
+  padding: 7%;
+  
+  margin-right: 15%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
