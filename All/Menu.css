@@ -6,7 +6,7 @@ body {
     line-height: 1.9;
   }
 header {
-    background:linear-gradient(90deg, rgb(160, 32, 240) 0%, rgb(160, 32, 240) 44%, rgb(205, 5, 216) 110%); 
+    background:linear-gradient(90deg, rgb(39, 8, 106) 0%, rgb(75, 39, 168) 44%, rgb(40, 2, 87) 110%); 
     border:solid;
     border-color: transparent;
     border-radius: 30px;
@@ -60,7 +60,7 @@ header {
       word-spacing: 1px;
     }
   section{
-    color: rgb(75, 2, 88);
+    color: rgb(41, 11, 81);
   }
   .card {
     width: 45%;
@@ -74,7 +74,7 @@ header {
 }
 #car {
   position: absolute;
-  top: 0%;
+  top: 92%;
   left: 50%;
   width: 45%;
   background-color: #222;
@@ -84,17 +84,87 @@ header {
   margin-right: 60%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+   background-image: url('your-image-path.png'); /* Update the path */
+  background-size: cover;  /* Ensures it covers the entire card */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  color: white; /* Adjust text color for contrast */
+  padding: 0px; /* Add padding if necessary */
 }
 #cards {
   position: absolute;
-  top: 42%;
+  top: 150%;
   left: 15%;
   width: 70%;
   background-color: #222;
   color: white;
   padding: 7%;
   
-  margin-right: 15%;
+  margin-right: 10%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+  background-image: url('your-image-path.png'); /* Update the path */
+  background-size: cover;  /* Ensures it covers the entire card */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  color: white; /* Adjust text color for contrast */
+  padding: 0px; /* Add padding if necessary */
+}
+.card {
+  background-image: url('your-image-path.png'); /* Update the path */
+  background-size: cover;  /* Ensures it covers the entire card */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  color: white; /* Adjust text color for contrast */
+  padding: 0px; /* Add padding if necessary */
+}
+#cart {
+  position: absolute;
+  top: 205%;
+  left: 4%;
+  width: 45%;
+  background-color: #222;
+  color: white;
+  padding: 7%;
+  margin: 12% auto;  /* Centers the card */
+  margin-right: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+   background-image: url('your-image-path.png'); /* Update the path */
+  background-size: cover;  /* Ensures it covers the entire card */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  color: white; /* Adjust text color for contrast */
+  padding: 0px; /* Add padding if necessary */
+}
+#cart1 {
+  position: absolute;
+  top: 205%;
+  left: 50%;
+  width: 45%;
+  background-color: #222;
+  color: white;
+  padding: 7%;
+  margin: 12% auto;  /* Centers the card */
+  margin-right: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+  background-image: url('your-image-path.png'); /* Update the path */
+  background-size: cover;  /* Ensures it covers the entire card */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  color: white; /* Adjust text color for contrast */
+  padding: 0px; /* Add padding if necessary */
+}
+h2 {
+  color: rgb(33, 33, 103) !important;
+}#isg {
+  background: url('your-image-path.jpg') no-repeat center center;
+  background-size: contain; /* Ensures the whole image fits */
+  width: 100%; /* Adjust if needed */
+  height: 100%; /* Adjust if needed */
 }
