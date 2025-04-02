@@ -17,10 +17,10 @@
         </a>
               <nav>
                 <ul>
-                  <li><a href="calendrie.html">Home</a></li>
-                  <li><a href="resultat.html">Service</a></li>
-                  <li><a href="event.html">Portfolio</a></li>
-                  <li><a href="clubs.html">Pages</a></li>
+                  <li><a href="Menu.html">Home</a></li>
+                  <li><a href="resultat.html">Resultat</a></li>
+                  <li><a href="event.html">Evenement</a></li>
+                  <li><a href="clubs.html">Clubs</a></li>
                   <li><a href="#about">Contact</a></li>
                   <li><a href="#contact">About us</a></li>
                 </ul>
@@ -74,27 +74,27 @@
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <img src="imgs/bilan (1).webp" class="card-img-top" alt="...">
+            <a href="emploi"><img src="imgs/bilan (1).webp" class="card-img-top" alt="..."></a>
             <div class="card-body">
-              <h2 class="card-title"> Emploi du temps</h2>
+              <h2 class="card-title"><a href="emploi"> Emploi du temps</a></h2>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="imgs/VisuelElection_Resultat-00000002.png" class="card-img-top" alt="...">
+            <a href=""><img src="imgs/VisuelElection_Resultat-00000002.png" class="card-img-top" alt="..."></a>
             <div class="card-body">
-              <h2 class="card-title">Resultat</h2>
+              <h2 class="card-title"><a href="">Resultat</a></h2>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="imgs/4024766.jpg" class="card-img-top" alt="...">
+            <a href=""><img src="imgs/4024766.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
-              <h2 class="card-title">Des Evenement</h2>
+              <h2 class="card-title"><a href="">Des Evenement</a></h2>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
@@ -103,7 +103,7 @@
           <div class="card">
             <img src="imgs/6304051 (1).jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h2 class="card-title">Nous clubs</h2>
+              <h2 class="card-title"><a href="">Nous clubs</a></h2>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
@@ -113,26 +113,65 @@
     </form>
     <hr>
     <footer class="stats-container">
-      <div class="stat-item">
-          <span class="stat-number">53</span>
-          <p class="stat-label">Années D'existence</p>
-      </div>
-      <div class="stat-item">
-          <span class="stat-number">+300</span>
-          <p class="stat-label">Enseignants</p>
-      </div>
-      <div class="stat-item">
-          <span class="stat-number">+3260</span>
-          <p class="stat-label">Étudiants</p>
-      </div>
-      <div class="stat-item">
-          <span class="stat-number">07</span>
-          <p class="stat-label">Laboratoires De Recherche</p>
-      </div>
-      <div class="stat-item">
-          <span class="stat-number">+93%</span>
-          <p class="stat-label">Taux D'insertion Professionnelle En Masters</p>
-      </div>
+      
+      <div class="tab-container">
+
+    
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Formation</button>
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Formation</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <div class="stat-item">
+      <span class="stat-number">53</span>
+      <p class="stat-label">Années D'existence</p>
+  </div>
+  <div class="stat-item">
+      <span class="stat-number">+300</span>
+      <p class="stat-label">Enseignants</p>
+  </div>
+  <div class="stat-item">
+      <span class="stat-number">+3260</span>
+      <p class="stat-label">Étudiants</p>
+  </div>
+  <div class="stat-item">
+      <span class="stat-number">07</span>
+      <p class="stat-label">Laboratoires De Recherche</p>
+  </div>
+  <div class="stat-item">
+      <span class="stat-number">+93%</span>
+      <p class="stat-label">Taux D'insertion Professionnelle En Masters</p>
+  </div>
+
+  </div>
+</div>
+</div>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Etudiant</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Etudiant</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
+</div>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Partenaires</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
+</div>
+
     </footer>
 </body>
 </html>

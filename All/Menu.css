@@ -91,6 +91,8 @@ h2 {
   width: 100%; /* Adjust if needed */
   height: 100%; /* Adjust if needed */
 }
+
+
 .stats-container {
   display: flex;
   justify-content: center;
@@ -100,17 +102,58 @@ h2 {
   gap: 90px;
 }
 
-.stat-item {
+
+.tab-container {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: #eee;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary {
+  background: #140048; /* Dark purple */
+  color: white;
+  font-weight: bold;
+}
+
+.tab:not(.active):hover {
+  background: #ddd;
+}
+.offcanvas-body {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center; /* Centers the stats */
+  align-items: center;
+  gap: 40px; /* Adds spacing between items */
   text-align: center;
 }
 
+.stat-item {
+  min-width: 150px; /* Ensures a consistent width */
+}
+
 .stat-number {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #0e3b63; /* Dark blue */
 }
+.stat-number:hover{
+  color: #d55e19;
+}
+
+
 
 .stat-label {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #6c757d; /* Grey */
+}
+.stat-label:hover{
+  color: #d55e19;
 }
