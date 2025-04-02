@@ -157,3 +157,19 @@ h2 {
 .stat-label:hover{
   color: #d55e19;
 }
+#b1,#b2,#b3{
+  background-color: #311166;
+  border-color: #311166;
+}
+#b1:hover{
+  background-color: #d55e19;
+  border-color: #d55e19;
+}
+#b2:hover{
+  background-color: #d55e19;
+  border-color: #d55e19;
+}
+#b3:hover{
+  background-color: #d55e19;
+  border-color: #d55e19;
+}
